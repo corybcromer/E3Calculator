@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C4D1C53229C94E60008044C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1C52229C94E60008044C /* AppDelegate.swift */; };
+		4C4D1C58229C94E60008044C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D1C56229C94E60008044C /* Main.storyboard */; };
+		4C4D1C5A229C94E70008044C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D1C59229C94E70008044C /* Assets.xcassets */; };
+		4C4D1C5D229C94E70008044C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4D1C5B229C94E70008044C /* LaunchScreen.storyboard */; };
+		4C4D1C68229C94E70008044C /* E3CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1C67229C94E70008044C /* E3CalculatorTests.swift */; };
+		4C4D1C73229C94E70008044C /* E3CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1C72229C94E70008044C /* E3CalculatorUITests.swift */; };
+		4C4D1CC1229C97A60008044C /* DbvToDbµvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CAC229C97A40008044C /* DbvToDbµvViewController.swift */; };
+		4C4D1CC2229C97A60008044C /* DbmaToDbµaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CAD229C97A40008044C /* DbmaToDbµaViewController.swift */; };
+		4C4D1CC3229C97A60008044C /* MaToDbµaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CAE229C97A40008044C /* MaToDbµaViewController.swift */; };
+		4C4D1CC4229C97A60008044C /* DbµvToDbvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CAF229C97A40008044C /* DbµvToDbvViewController.swift */; };
+		4C4D1CC5229C97A60008044C /* MhzToMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB0229C97A40008044C /* MhzToMViewController.swift */; };
+		4C4D1CC6229C97A60008044C /* DbmToDbwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB1229C97A50008044C /* DbmToDbwViewController.swift */; };
+		4C4D1CC7229C97A60008044C /* DbmToWattsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB2229C97A50008044C /* DbmToWattsViewController.swift */; };
+		4C4D1CC8229C97A60008044C /* DbwToWattsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB3229C97A50008044C /* DbwToWattsViewController.swift */; };
+		4C4D1CCA229C97A60008044C /* DbµaToMaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB5229C97A50008044C /* DbµaToMaViewController.swift */; };
+		4C4D1CCB229C97A60008044C /* VoltsToDbµvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB6229C97A50008044C /* VoltsToDbµvViewController.swift */; };
+		4C4D1CCC229C97A60008044C /* HomeCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB7229C97A50008044C /* HomeCalculatorViewController.swift */; };
+		4C4D1CCD229C97A60008044C /* WattsToDbmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB8229C97A50008044C /* WattsToDbmViewController.swift */; };
+		4C4D1CCE229C97A60008044C /* DbµaToµaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CB9229C97A50008044C /* DbµaToµaViewController.swift */; };
+		4C4D1CCF229C97A60008044C /* µaToDbµaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CBA229C97A50008044C /* µaToDbµaViewController.swift */; };
+		4C4D1CD0229C97A60008044C /* DbmaToMaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CBB229C97A50008044C /* DbmaToMaViewController.swift */; };
+		4C4D1CD1229C97A60008044C /* DbvToVoltsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CBC229C97A50008044C /* DbvToVoltsViewController.swift */; };
+		4C4D1CD2229C97A60008044C /* VoltsToDbvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CBD229C97A50008044C /* VoltsToDbvViewController.swift */; };
+		4C4D1CD3229C97A60008044C /* WattsToDbwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CBE229C97A50008044C /* WattsToDbwViewController.swift */; };
+		4C4D1CD4229C97A60008044C /* DbµvToVoltsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CBF229C97A50008044C /* DbµvToVoltsViewController.swift */; };
+		4C4D1CD5229C97A60008044C /* DbwToDbmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D1CC0229C97A60008044C /* DbwToDbmViewController.swift */; };
+		4CE4C35B229C9CEF0026C41B /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE4C35A229C9CEF0026C41B /* InfoViewController.swift */; };
+		C3A2A9A226402F0E51D86B38 /* Pods_E3Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E1D091F63ED6595C393D2C /* Pods_E3Calculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4D1C64229C94E70008044C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4D1C47229C94E60008044C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4D1C4E229C94E60008044C;
+			remoteInfo = E3Calculator;
+		};
+		4C4D1C6F229C94E70008044C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4D1C47229C94E60008044C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4D1C4E229C94E60008044C;
+			remoteInfo = E3Calculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D1D2D4E70719B0244A39CD5 /* Pods-E3Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E3Calculator.debug.xcconfig"; path = "Target Support Files/Pods-E3Calculator/Pods-E3Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		4C4D1C4F229C94E60008044C /* E3Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E3Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4D1C52229C94E60008044C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C4D1C57229C94E60008044C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C4D1C59229C94E70008044C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C4D1C5C229C94E70008044C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C4D1C5E229C94E70008044C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4D1C63229C94E70008044C /* E3CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = E3CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4D1C67229C94E70008044C /* E3CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E3CalculatorTests.swift; sourceTree = "<group>"; };
+		4C4D1C69229C94E70008044C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4D1C6E229C94E70008044C /* E3CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = E3CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4D1C72229C94E70008044C /* E3CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E3CalculatorUITests.swift; sourceTree = "<group>"; };
+		4C4D1C74229C94E70008044C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4D1CAC229C97A40008044C /* DbvToDbµvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DbvToDbµvViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CAD229C97A40008044C /* DbmaToDbµaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DbmaToDbµaViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CAE229C97A40008044C /* MaToDbµaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MaToDbµaViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CAF229C97A40008044C /* DbµvToDbvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DbµvToDbvViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CB0229C97A40008044C /* MhzToMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MhzToMViewController.swift; sourceTree = "<group>"; };
+		4C4D1CB1229C97A50008044C /* DbmToDbwViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbmToDbwViewController.swift; sourceTree = "<group>"; };
+		4C4D1CB2229C97A50008044C /* DbmToWattsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbmToWattsViewController.swift; sourceTree = "<group>"; };
+		4C4D1CB3229C97A50008044C /* DbwToWattsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbwToWattsViewController.swift; sourceTree = "<group>"; };
+		4C4D1CB5229C97A50008044C /* DbµaToMaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DbµaToMaViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CB6229C97A50008044C /* VoltsToDbµvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VoltsToDbµvViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CB7229C97A50008044C /* HomeCalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCalculatorViewController.swift; sourceTree = "<group>"; };
+		4C4D1CB8229C97A50008044C /* WattsToDbmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WattsToDbmViewController.swift; sourceTree = "<group>"; };
+		4C4D1CB9229C97A50008044C /* DbµaToµaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DbµaToµaViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CBA229C97A50008044C /* µaToDbµaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "µaToDbµaViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CBB229C97A50008044C /* DbmaToMaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbmaToMaViewController.swift; sourceTree = "<group>"; };
+		4C4D1CBC229C97A50008044C /* DbvToVoltsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbvToVoltsViewController.swift; sourceTree = "<group>"; };
+		4C4D1CBD229C97A50008044C /* VoltsToDbvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoltsToDbvViewController.swift; sourceTree = "<group>"; };
+		4C4D1CBE229C97A50008044C /* WattsToDbwViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WattsToDbwViewController.swift; sourceTree = "<group>"; };
+		4C4D1CBF229C97A50008044C /* DbµvToVoltsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DbµvToVoltsViewController.swift"; sourceTree = "<group>"; };
+		4C4D1CC0229C97A60008044C /* DbwToDbmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbwToDbmViewController.swift; sourceTree = "<group>"; };
+		4CE4C35A229C9CEF0026C41B /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		8442634D8583298470FF9752 /* Pods-E3Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E3Calculator.release.xcconfig"; path = "Target Support Files/Pods-E3Calculator/Pods-E3Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		B5E1D091F63ED6595C393D2C /* Pods_E3Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E3Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4D1C4C229C94E60008044C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A2A9A226402F0E51D86B38 /* Pods_E3Calculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D1C60229C94E70008044C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D1C6B229C94E70008044C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC6FCADD11A2E163203567C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D1D2D4E70719B0244A39CD5 /* Pods-E3Calculator.debug.xcconfig */,
+				8442634D8583298470FF9752 /* Pods-E3Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C4D1C46229C94E60008044C = {
+			isa = PBXGroup;
+			children = (
+				4C4D1C51229C94E60008044C /* E3Calculator */,
+				4C4D1C66229C94E70008044C /* E3CalculatorTests */,
+				4C4D1C71229C94E70008044C /* E3CalculatorUITests */,
+				4C4D1C50229C94E60008044C /* Products */,
+				3AC6FCADD11A2E163203567C /* Pods */,
+				F46A60C02138DD544A047693 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4D1C50229C94E60008044C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D1C4F229C94E60008044C /* E3Calculator.app */,
+				4C4D1C63229C94E70008044C /* E3CalculatorTests.xctest */,
+				4C4D1C6E229C94E70008044C /* E3CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4D1C51229C94E60008044C /* E3Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D1C52229C94E60008044C /* AppDelegate.swift */,
+				4C4D1CB7229C97A50008044C /* HomeCalculatorViewController.swift */,
+				4CE4C35A229C9CEF0026C41B /* InfoViewController.swift */,
+				4C4D1CB2229C97A50008044C /* DbmToWattsViewController.swift */,
+				4C4D1CB8229C97A50008044C /* WattsToDbmViewController.swift */,
+				4C4D1CB3229C97A50008044C /* DbwToWattsViewController.swift */,
+				4C4D1CBE229C97A50008044C /* WattsToDbwViewController.swift */,
+				4C4D1CC0229C97A60008044C /* DbwToDbmViewController.swift */,
+				4C4D1CB1229C97A50008044C /* DbmToDbwViewController.swift */,
+				4C4D1CBF229C97A50008044C /* DbµvToVoltsViewController.swift */,
+				4C4D1CB6229C97A50008044C /* VoltsToDbµvViewController.swift */,
+				4C4D1CBC229C97A50008044C /* DbvToVoltsViewController.swift */,
+				4C4D1CBD229C97A50008044C /* VoltsToDbvViewController.swift */,
+				4C4D1CAC229C97A40008044C /* DbvToDbµvViewController.swift */,
+				4C4D1CAF229C97A40008044C /* DbµvToDbvViewController.swift */,
+				4C4D1CB9229C97A50008044C /* DbµaToµaViewController.swift */,
+				4C4D1CBA229C97A50008044C /* µaToDbµaViewController.swift */,
+				4C4D1CB5229C97A50008044C /* DbµaToMaViewController.swift */,
+				4C4D1CAE229C97A40008044C /* MaToDbµaViewController.swift */,
+				4C4D1CAD229C97A40008044C /* DbmaToDbµaViewController.swift */,
+				4C4D1CBB229C97A50008044C /* DbmaToMaViewController.swift */,
+				4C4D1CB0229C97A40008044C /* MhzToMViewController.swift */,
+				4C4D1C56229C94E60008044C /* Main.storyboard */,
+				4C4D1C59229C94E70008044C /* Assets.xcassets */,
+				4C4D1C5B229C94E70008044C /* LaunchScreen.storyboard */,
+				4C4D1C5E229C94E70008044C /* Info.plist */,
+			);
+			path = E3Calculator;
+			sourceTree = "<group>";
+		};
+		4C4D1C66229C94E70008044C /* E3CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D1C67229C94E70008044C /* E3CalculatorTests.swift */,
+				4C4D1C69229C94E70008044C /* Info.plist */,
+			);
+			path = E3CalculatorTests;
+			sourceTree = "<group>";
+		};
+		4C4D1C71229C94E70008044C /* E3CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C4D1C72229C94E70008044C /* E3CalculatorUITests.swift */,
+				4C4D1C74229C94E70008044C /* Info.plist */,
+			);
+			path = E3CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		F46A60C02138DD544A047693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5E1D091F63ED6595C393D2C /* Pods_E3Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4D1C4E229C94E60008044C /* E3Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4D1C77229C94E70008044C /* Build configuration list for PBXNativeTarget "E3Calculator" */;
+			buildPhases = (
+				D10974F8278F9A0EE5E80F87 /* [CP] Check Pods Manifest.lock */,
+				4C4D1C4B229C94E60008044C /* Sources */,
+				4C4D1C4C229C94E60008044C /* Frameworks */,
+				4C4D1C4D229C94E60008044C /* Resources */,
+				DF44FBB6338A8C1150A9BD25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = E3Calculator;
+			productName = E3Calculator;
+			productReference = 4C4D1C4F229C94E60008044C /* E3Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C4D1C62229C94E70008044C /* E3CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4D1C7A229C94E70008044C /* Build configuration list for PBXNativeTarget "E3CalculatorTests" */;
+			buildPhases = (
+				4C4D1C5F229C94E70008044C /* Sources */,
+				4C4D1C60229C94E70008044C /* Frameworks */,
+				4C4D1C61229C94E70008044C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4D1C65229C94E70008044C /* PBXTargetDependency */,
+			);
+			name = E3CalculatorTests;
+			productName = E3CalculatorTests;
+			productReference = 4C4D1C63229C94E70008044C /* E3CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C4D1C6D229C94E70008044C /* E3CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4D1C7D229C94E70008044C /* Build configuration list for PBXNativeTarget "E3CalculatorUITests" */;
+			buildPhases = (
+				4C4D1C6A229C94E70008044C /* Sources */,
+				4C4D1C6B229C94E70008044C /* Frameworks */,
+				4C4D1C6C229C94E70008044C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C4D1C70229C94E70008044C /* PBXTargetDependency */,
+			);
+			name = E3CalculatorUITests;
+			productName = E3CalculatorUITests;
+			productReference = 4C4D1C6E229C94E70008044C /* E3CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4D1C47229C94E60008044C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BurningHearts;
+				TargetAttributes = {
+					4C4D1C4E229C94E60008044C = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					4C4D1C62229C94E70008044C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 4C4D1C4E229C94E60008044C;
+					};
+					4C4D1C6D229C94E70008044C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 4C4D1C4E229C94E60008044C;
+					};
+				};
+			};
+			buildConfigurationList = 4C4D1C4A229C94E60008044C /* Build configuration list for PBXProject "E3Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C4D1C46229C94E60008044C;
+			productRefGroup = 4C4D1C50229C94E60008044C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4D1C4E229C94E60008044C /* E3Calculator */,
+				4C4D1C62229C94E70008044C /* E3CalculatorTests */,
+				4C4D1C6D229C94E70008044C /* E3CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C4D1C4D229C94E60008044C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D1C5D229C94E70008044C /* LaunchScreen.storyboard in Resources */,
+				4C4D1C5A229C94E70008044C /* Assets.xcassets in Resources */,
+				4C4D1C58229C94E60008044C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D1C61229C94E70008044C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D1C6C229C94E70008044C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D10974F8278F9A0EE5E80F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E3Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF44FBB6338A8C1150A9BD25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E3Calculator/Pods-E3Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E3Calculator/Pods-E3Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4D1C4B229C94E60008044C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D1CC7229C97A60008044C /* DbmToWattsViewController.swift in Sources */,
+				4C4D1CC8229C97A60008044C /* DbwToWattsViewController.swift in Sources */,
+				4C4D1CD1229C97A60008044C /* DbvToVoltsViewController.swift in Sources */,
+				4C4D1CC1229C97A60008044C /* DbvToDbµvViewController.swift in Sources */,
+				4C4D1CC6229C97A60008044C /* DbmToDbwViewController.swift in Sources */,
+				4C4D1CC3229C97A60008044C /* MaToDbµaViewController.swift in Sources */,
+				4C4D1CD2229C97A60008044C /* VoltsToDbvViewController.swift in Sources */,
+				4C4D1CCA229C97A60008044C /* DbµaToMaViewController.swift in Sources */,
+				4C4D1CC4229C97A60008044C /* DbµvToDbvViewController.swift in Sources */,
+				4C4D1CCB229C97A60008044C /* VoltsToDbµvViewController.swift in Sources */,
+				4C4D1CCD229C97A60008044C /* WattsToDbmViewController.swift in Sources */,
+				4C4D1CD0229C97A60008044C /* DbmaToMaViewController.swift in Sources */,
+				4C4D1CCE229C97A60008044C /* DbµaToµaViewController.swift in Sources */,
+				4C4D1CC5229C97A60008044C /* MhzToMViewController.swift in Sources */,
+				4C4D1CCC229C97A60008044C /* HomeCalculatorViewController.swift in Sources */,
+				4C4D1CD5229C97A60008044C /* DbwToDbmViewController.swift in Sources */,
+				4C4D1C53229C94E60008044C /* AppDelegate.swift in Sources */,
+				4C4D1CCF229C97A60008044C /* µaToDbµaViewController.swift in Sources */,
+				4C4D1CD3229C97A60008044C /* WattsToDbwViewController.swift in Sources */,
+				4C4D1CC2229C97A60008044C /* DbmaToDbµaViewController.swift in Sources */,
+				4C4D1CD4229C97A60008044C /* DbµvToVoltsViewController.swift in Sources */,
+				4CE4C35B229C9CEF0026C41B /* InfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D1C5F229C94E70008044C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D1C68229C94E70008044C /* E3CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4D1C6A229C94E70008044C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4D1C73229C94E70008044C /* E3CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4D1C65229C94E70008044C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4D1C4E229C94E60008044C /* E3Calculator */;
+			targetProxy = 4C4D1C64229C94E70008044C /* PBXContainerItemProxy */;
+		};
+		4C4D1C70229C94E70008044C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4D1C4E229C94E60008044C /* E3Calculator */;
+			targetProxy = 4C4D1C6F229C94E70008044C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C4D1C56229C94E60008044C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4D1C57229C94E60008044C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4D1C5B229C94E70008044C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4D1C5C229C94E70008044C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C4D1C75229C94E70008044C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C4D1C76229C94E70008044C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C4D1C78229C94E70008044C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1D2D4E70719B0244A39CD5 /* Pods-E3Calculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LD65XF34G;
+				INFOPLIST_FILE = E3Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psycheapps.E3Calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C4D1C79229C94E70008044C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8442634D8583298470FF9752 /* Pods-E3Calculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LD65XF34G;
+				INFOPLIST_FILE = E3Calculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.psycheapps.E3Calculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C4D1C7B229C94E70008044C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LD65XF34G;
+				INFOPLIST_FILE = E3CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burninghearts.E3CalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E3Calculator.app/E3Calculator";
+			};
+			name = Debug;
+		};
+		4C4D1C7C229C94E70008044C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LD65XF34G;
+				INFOPLIST_FILE = E3CalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burninghearts.E3CalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E3Calculator.app/E3Calculator";
+			};
+			name = Release;
+		};
+		4C4D1C7E229C94E70008044C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LD65XF34G;
+				INFOPLIST_FILE = E3CalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burninghearts.E3CalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = E3Calculator;
+			};
+			name = Debug;
+		};
+		4C4D1C7F229C94E70008044C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LD65XF34G;
+				INFOPLIST_FILE = E3CalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.burninghearts.E3CalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = E3Calculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4D1C4A229C94E60008044C /* Build configuration list for PBXProject "E3Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D1C75229C94E70008044C /* Debug */,
+				4C4D1C76229C94E70008044C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4D1C77229C94E70008044C /* Build configuration list for PBXNativeTarget "E3Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D1C78229C94E70008044C /* Debug */,
+				4C4D1C79229C94E70008044C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4D1C7A229C94E70008044C /* Build configuration list for PBXNativeTarget "E3CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D1C7B229C94E70008044C /* Debug */,
+				4C4D1C7C229C94E70008044C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4D1C7D229C94E70008044C /* Build configuration list for PBXNativeTarget "E3CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4D1C7E229C94E70008044C /* Debug */,
+				4C4D1C7F229C94E70008044C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4D1C47229C94E60008044C /* Project object */;
+}
